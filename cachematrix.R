@@ -31,3 +31,38 @@ cacheSolve <- function(x, ...) {
         x$setInv(inv)
         inv
 }
+
+
+#Test run 1
+                
+#Create a matrix
+#myMatrix <- makeCacheMatrix(matrix(1:4, 2, 2))
+                
+#Print matrix
+#myMatrix$get()
+                
+#getInv is null because inverse matrix is not yet created
+#myMatrix$getInv()
+                
+#Create inverse matrix
+#cacheSolve(myMatrix)
+                
+#Retrieve cached data
+#myMatrix$getInv()
+
+#Test run 2
+                
+#Create matrix
+#myMatrix$set(matrix(c(4, 3, 2, 1), 2, 2))
+                
+#Print matrix
+#myMatrix$get()
+                
+#getInv is null because inverse matrix is not yet created
+#myMatrix$getInv()
+                
+#Create inverse matrix
+#cacheSolve(myMatrix)
+                
+#Retrieve cached data
+#cacheSolve(myMatrix)
