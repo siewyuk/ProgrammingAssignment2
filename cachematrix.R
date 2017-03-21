@@ -35,7 +35,7 @@ cacheSolve <- function(x, ...) {
 
 #Test run 1
                 
-#Create a matrix
+#Create a 2x2 matrix
 #myMatrix <- makeCacheMatrix(matrix(1:4, 2, 2))
                 
 #Print matrix
@@ -52,7 +52,7 @@ cacheSolve <- function(x, ...) {
 
 #Test run 2
                 
-#Create matrix
+#Create a 2x2 matrix
 #myMatrix$set(matrix(c(4, 3, 2, 1), 2, 2))
                 
 #Print matrix
